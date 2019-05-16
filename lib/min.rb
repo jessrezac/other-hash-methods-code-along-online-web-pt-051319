@@ -10,5 +10,5 @@ require 'values.rb'
 # }
 
 def get_the_min(groceries)
-  values(groceries).min
+  groceries.values.flatten.min
 end
